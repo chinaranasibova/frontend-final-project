@@ -1,0 +1,137 @@
+#cards-section{
+    background-color:#ebeaf5;
+    padding: 80px;
+    .remote-employe{
+       
+        .headd{
+            padding: 15px 40px;
+            h1{
+                position: static;
+                max-width: 1440px;
+                margin-top: 0;
+                margin-bottom: 24px;
+                -webkit-align-self: flex-start;
+                
+                align-self: flex-start;
+                font-family: Inter,sans-serif;
+                color: $color-primary;
+                font-size: 56px;
+                line-height: 120%;
+                font-weight: 600;
+                text-align: left;
+            }
+        }
+        .button-remote{
+               margin-bottom: 45px;
+               padding: 15px 40px;
+            a{
+                
+                left: 16px;
+                
+        
+                bottom: 16px;
+                
+                margin-bottom: 16px;
+                
+                background-color: $color-thernary;
+                padding: 12px 40px;
+                border: 1px solid $color-thernary;
+                border-radius: 8px;
+                font-size: 14px;
+               
+                
+               
+                
+                font-family: Rajdhani,sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+            };
+        }
+        .image{
+            padding: 15px 50px;
+            img{
+                width: 100%;
+                border-radius: 15px;
+height: 500px;
+            }
+        }
+            
+    }
+}
+#text{
+    padding: 140px 80px;
+    
+.text-image{
+    display: block;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    background-color: #fff;
+    .image{
+        img{
+             width: 90px;
+             height: 90px;
+             border-radius: 50%;
+        }
+    }
+    .name-date{
+        margin-right: 90px;
+        .name{
+            color: $color-black;
+            font-size: 18px;
+
+        }
+        .datee{
+            color: $color-black;
+            font-size: 18px;
+        }
+    }
+}
+.span{
+ 
+    display: block;
+    
+    width: 100%;
+    height: 1px;
+    min-height: 0;
+    min-width: 0;
+    margin-top: 8px;
+    margin-bottom: 48px;
+   
+    
+    grid-template-rows: auto auto;
+    background-color: #dedcee;
+    opacity: 1;
+    color: transparent;
+   
+   
+}
+.texts{
+    h2{
+    color: $color-black;
+    font-size: 32px;
+    font-weight: 600;
+    }
+    p{
+   color: $color-p;
+   font-size: 18px;
+   margin-bottom: 48px;
+   margin-top: 30px
+    }
+    .listt{
+        .ul{
+      
+            li{
+            color: $color-p;
+            font-size: 18px;
+            line-height: 30px;
+            padding: 10px 5px;
+           a{
+            color: $color-thernary;
+            font-weight: 500;
+           }
+            };
+        };
+    }
+}
+}

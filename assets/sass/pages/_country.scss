@@ -1,0 +1,143 @@
+#country{
+    background-color: $color-primary;
+    padding-top: 50px;
+    padding-bottom: 80px;
+
+
+    .contentt{
+        padding: 25px;
+        margin-top: 63px;
+        h1{
+            font-size: 39px;
+            text-align: left;
+            margin-bottom: 24px;
+        }
+        p{
+            max-width: 80%;
+            min-height: auto;
+            min-width: auto;
+            margin-top: 10px;
+            color: #adaabf;
+            font-size: 20px;
+            line-height: 30px
+        }
+    }
+    .image-country{
+        img{
+ width: 100%;
+        }
+    }
+}
+
+
+
+#countrys-name{
+    background-color: $color-secondary;
+    padding: 50px 160px;
+    .ul-list{
+        padding: 30px 80px;
+        ul{
+            li{
+                  font-size: 16px;
+                  padding: 3px 40px;
+            }
+            hr{
+                width: 95px;
+                color: $color-p;
+                margin:  30px 38px;
+            }
+        }
+    }
+}
+
+#Champion-talent{
+    background-color: $color-primary;
+    padding: 150px;
+    
+    .headd{
+        padding: 30px;
+        h1{
+        font-size: 35px;
+        text-align: center;
+        }
+    }
+    .bookDemo{
+        margin-top: 50px;
+        display: flex;
+    justify-content: center;
+    align-self: center;
+        a{
+            background-color: $color-thernary;
+            padding: 12px 20px;
+            border: 1px solid $color-thernary;
+            border-radius: 5px;
+            font-size: 14px; 
+        }
+    }
+}
+#videoSection{
+    background-color:$color-secondary;
+    padding: 140px 80px;
+    .head{
+        h2{
+         font-size: 33px;
+         margin-bottom: 30px;
+        }
+    }
+    .video-text{
+       
+        p{
+            font-size: 18px;
+            color: $color-p;
+            margin-right: 16px;
+        }
+        a{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: white;
+            img{
+
+            }
+        }
+    }
+    .cardd{
+        margin-top: 16px;
+
+        .icon{
+            img{
+
+
+            }
+        }
+        .text{
+            h3{
+                margin-top: 20px;
+                margin-bottom: 20px;
+ font-size: 20px;
+            }
+            p{
+   font-size: 16px;
+   color: $color-p;
+   margin-bottom: 10px;
+            }
+            .learnmore{
+                width: 70%;
+                display: flex;
+                
+                align-items: center;
+                a{
+                font-size: 16px ;
+
+                color: $color-thernary;
+                margin-right: 10px;
+                }
+                img{
+
+                }
+            }
+        }
+    }
+}
+
+

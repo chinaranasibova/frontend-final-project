@@ -6697,6 +6697,9 @@ a {
     font-size: 1rem; }
 
 .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   background-color: #0f0d1e;
   display: flex;
   justify-content: space-between;
@@ -7233,3 +7236,224 @@ a {
       background-color: transparent;
       color: #867df3;
       text-decoration: none; }
+
+#cards-section {
+  background-color: #ebeaf5;
+  padding: 80px; }
+  #cards-section .remote-employe .headd {
+    padding: 15px 40px; }
+    #cards-section .remote-employe .headd h1 {
+      position: static;
+      max-width: 1440px;
+      margin-top: 0;
+      margin-bottom: 24px;
+      -webkit-align-self: flex-start;
+      align-self: flex-start;
+      font-family: Inter,sans-serif;
+      color: #0f0d1e;
+      font-size: 56px;
+      line-height: 120%;
+      font-weight: 600;
+      text-align: left; }
+  #cards-section .remote-employe .button-remote {
+    margin-bottom: 45px;
+    padding: 15px 40px; }
+    #cards-section .remote-employe .button-remote a {
+      left: 16px;
+      bottom: 16px;
+      margin-bottom: 16px;
+      background-color: #5b35d5;
+      padding: 12px 40px;
+      border: 1px solid #5b35d5;
+      border-radius: 8px;
+      font-size: 14px;
+      font-family: Rajdhani,sans-serif;
+      font-size: 18px;
+      font-weight: 400; }
+  #cards-section .remote-employe .image {
+    padding: 15px 50px; }
+    #cards-section .remote-employe .image img {
+      width: 100%;
+      border-radius: 15px;
+      height: 500px; }
+
+#text {
+  padding: 140px 80px; }
+  #text .text-image {
+    display: block;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    background-color: #fff; }
+    #text .text-image .image img {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%; }
+    #text .text-image .name-date {
+      margin-right: 90px; }
+      #text .text-image .name-date .name {
+        color: #0f0d1e;
+        font-size: 18px; }
+      #text .text-image .name-date .datee {
+        color: #0f0d1e;
+        font-size: 18px; }
+  #text .span {
+    display: block;
+    width: 100%;
+    height: 1px;
+    min-height: 0;
+    min-width: 0;
+    margin-top: 8px;
+    margin-bottom: 48px;
+    grid-template-rows: auto auto;
+    background-color: #dedcee;
+    opacity: 1;
+    color: transparent; }
+  #text .texts h2 {
+    color: #0f0d1e;
+    font-size: 32px;
+    font-weight: 600; }
+  #text .texts p {
+    color: #adaabf;
+    font-size: 18px;
+    margin-bottom: 48px;
+    margin-top: 30px; }
+  #text .texts .listt .ul li {
+    color: #adaabf;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px 5px; }
+    #text .texts .listt .ul li a {
+      color: #5b35d5;
+      font-weight: 500; }
+
+#ourBlog {
+  background-color: #0f0d1e; }
+  #ourBlog .element {
+    background-color: #1b1734;
+    border-radius: 15px;
+    width: 60%;
+    overflow: hidden; }
+    #ourBlog .element:hover {
+      margin-bottom: 0px; }
+    #ourBlog .element .image {
+      position: relative; }
+      #ourBlog .element .image img {
+        width: max-content;
+        height: max-content; }
+      #ourBlog .element .image .buttons {
+        position: absolute;
+        top: 80%;
+        left: 7%; }
+        #ourBlog .element .image .buttons a {
+          background-color: #5b35d5;
+          padding: 12px 20px;
+          border: 1px solid #5b35d5;
+          border-radius: 5px;
+          font-size: 14px; }
+    #ourBlog .element .writte .h2 {
+      margin-top: 32px;
+      padding: 38px 35px;
+      font-size: 20px; }
+    #ourBlog .element .writte .p3 {
+      padding: 0px 35px;
+      font-size: 16px;
+      color: #adaabf; }
+    #ourBlog .element .dates {
+      display: flex; }
+      #ourBlog .element .dates img {
+        margin: 10px 30px;
+        width: 35px;
+        height: 35px; }
+      #ourBlog .element .dates .p-date {
+        font-size: 16px;
+        margin-top: 15px; }
+
+#country {
+  background-color: #0f0d1e;
+  padding-top: 50px;
+  padding-bottom: 80px; }
+  #country .contentt {
+    padding: 25px;
+    margin-top: 63px; }
+    #country .contentt h1 {
+      font-size: 39px;
+      text-align: left;
+      margin-bottom: 24px; }
+    #country .contentt p {
+      max-width: 80%;
+      min-height: auto;
+      min-width: auto;
+      margin-top: 10px;
+      color: #adaabf;
+      font-size: 20px;
+      line-height: 30px; }
+  #country .image-country img {
+    width: 100%; }
+
+#countrys-name {
+  background-color: #1b1734;
+  padding: 50px 160px; }
+  #countrys-name .ul-list {
+    padding: 30px 80px; }
+    #countrys-name .ul-list ul li {
+      font-size: 16px;
+      padding: 3px 40px; }
+    #countrys-name .ul-list ul hr {
+      width: 95px;
+      color: #adaabf;
+      margin: 30px 38px; }
+
+#Champion-talent {
+  background-color: #0f0d1e;
+  padding: 150px; }
+  #Champion-talent .headd {
+    padding: 30px; }
+    #Champion-talent .headd h1 {
+      font-size: 35px;
+      text-align: center; }
+  #Champion-talent .bookDemo {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-self: center; }
+    #Champion-talent .bookDemo a {
+      background-color: #5b35d5;
+      padding: 12px 20px;
+      border: 1px solid #5b35d5;
+      border-radius: 5px;
+      font-size: 14px; }
+
+#videoSection {
+  background-color: #1b1734;
+  padding: 140px 80px; }
+  #videoSection .head h2 {
+    font-size: 33px;
+    margin-bottom: 30px; }
+  #videoSection .video-text p {
+    font-size: 18px;
+    color: #adaabf;
+    margin-right: 16px; }
+  #videoSection .video-text a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white; }
+  #videoSection .cardd {
+    margin-top: 16px; }
+    #videoSection .cardd .text h3 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 20px; }
+    #videoSection .cardd .text p {
+      font-size: 16px;
+      color: #adaabf;
+      margin-bottom: 10px; }
+    #videoSection .cardd .text .learnmore {
+      width: 70%;
+      display: flex;
+      align-items: center; }
+      #videoSection .cardd .text .learnmore a {
+        font-size: 16px;
+        color: #5b35d5;
+        margin-right: 10px; }

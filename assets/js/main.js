@@ -41,7 +41,7 @@ $(document).ready(function () {
       $(this).find('img').css('transform', 'rotate(90deg)');
     }
     else {
-      // $(this).parent().next().css('transform', 'rotate(0deg)');
+     
       $(this).find('img').css('transform', 'rotate(0)');
 
     }
