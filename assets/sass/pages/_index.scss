@@ -5,6 +5,7 @@
     position: fixed;
     top:0;
     width: 100%;
+    z-index: 1;
     
     background-color: $color-primary;
       
@@ -18,6 +19,7 @@
         
         }
         .elements{
+           
             margin-left: 33%;
 
            ul.ul-navs{
@@ -129,6 +131,7 @@ display: none;
            }
         }
         .buttons{
+           
           
             
               .loginBtn{
@@ -151,6 +154,13 @@ display: none;
                  font-size: 14px;
               }
         }
+        // .hmbgr{
+        //   display: none;
+        //     img{
+            
+
+        //     }
+        // }
 
     
 }
@@ -159,19 +169,25 @@ display: none;
     background-image:url('../image/bgimagefirst.png');
 
 
-
     .text{
         .h{
 font-size: 45px;
 margin-top: 30%;
 
+@media screen and (max-width:500px){
+    font-size: 30px;
+    margin-top: 30%;
+    padding-left: 10px;
+   }
+
+
 
         }
         .p{
-color: $color-p;
+            color: $color-p;
 
-font-size: 18px;
- margin: 6.4rem 0px;
+            font-size: 18px;
+            margin: 6.4rem 0px;
         }
     }
     .button{
@@ -179,48 +195,56 @@ font-size: 18px;
         padding: 12px 20px;
         border: 1px solid $color-thernary;
         border-radius: 5px;
-        // margin-top: %;
+  
+        @media screen and (max-width:992px){
+            width: 120px;
+            background-color: #5b35d5;
+            padding: 12px 35px;
+            border: 1px solid #5b35d5;
+            border-radius: 5px;
+                         
+           }
     }
-    
     .trustedBy{
         font-size: 14px;
         font-style: italic;
+       
     }
     .images{
         display: flex;
         flex-wrap: wrap;
         img{
+            
          height: 4rem;
           padding:0px 0px 0px 8px;
           margin: 0px 24px 0px 0px;
+          @media screen and (max-width:992px){
+         height: 3rem;
+                      
+        }   
+    } 
+}
+.image{
+    position: relative;
+    margin-top: 10%;
+    .image-iconn{
+        border-radius: 50%;
+        width:70px;
+        height: 70px;
+        position: absolute;
+            top: 50%;
+            left: 50%;
+            transition: 250ms ease-in-out;
+            background-color: rgba(134,125,243,.88);
+        &:hover{
+            background-color: $color-thernary;
         }
-        
-
-          
-       
-    }
-    .image{
-        position: relative;
-        margin-top: 10%;
-        .image-iconn{
-            border-radius: 50%;
-            width:70px;
-            height: 70px;
-            position: absolute;
-                top: 50%;
-                left: 50%;
-                transition: 250ms ease-in-out;
-                background-color: rgba(134,125,243,.88);
-            &:hover{
-                background-color: $color-thernary;
-            }
-            img{
-                
-                width:35px;
+        img{
+            width:35px;
             height: 35px;
-            }
         }
     }
+}
 }
 #Not-with_panther{
     background-color: $color-secondary;
@@ -235,23 +259,30 @@ font-size: 18px;
           margin-left: 85px;
           padding: 8% 9%;
            font-size: 33px;
-        }
-        .paragraph{
-       margin-bottom: 10%;
-       padding: 8% 6%;
-     
+        
 
-           font-size: 18px;
-           margin: auto;
+    
+     
+       
     
             
 
 
         }
+        .paragraph{
+            
+            margin-bottom: 10%;
+            padding: 8% 6%;
+          
+     
+                font-size: 18px;
+                margin: auto;
        
         
        }
+    }
     .second{
+        
 
         background-color: $color-thernary;
         width: 80%;
@@ -271,11 +302,42 @@ font-size: 18px;
        font-size: 18px;
          }
         }
+        .image{
+            img{
+                width: 100%;
+            }
+        }
        
            }
        
 
         }
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     #change{
          padding: 5% 5%;
         background-color: $color-primary;
@@ -394,8 +456,13 @@ font-size: 18px;
             }
         }
     }
-    #card-section{  
+    #card-section{ 
+       
         background-color: $color-thernary;
+        padding: 0 100px;
+        @media screen and (max-width:992px){
+           padding: 0 10px;             
+        }
         
         .why-panther{
             h1{
@@ -407,27 +474,43 @@ font-size: 18px;
         }
         
 
-        .cards{
-            margin:40px 21%;
-           width: 70%;
+        
 
             .card-elements{
-                img{
-    
+                padding: 24px 0px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              
+                .image{
+                    // padding: 0 100px;
+
+                    img{
+                        margin-right: 10px;
+                        // width: 100%;
+        
+                    }
                 }
-                p{
-                    color: #fff;
-                    font-size: 18px;
-                    font-weight: 500;
-                    display: flex;
-                    justify-content: space-around;
+              
+              
+                .text{
+                    p{
+                        color: #fff;
+                        font-size: 18px;
+                        font-weight: 500;
+                      
+
+                    }
                 }
                 span{
                     font-size: 14px;
     
                 }
             }
-        }
+           hr{
+               color:#ff9a83;
+           }
+        
 
         .white-site {
           
@@ -437,14 +520,17 @@ font-size: 18px;
             margin-bottom: 10%;
             padding: 15px 15px;
             border-radius: 10px;
+            
 
              p{
                  padding-top: 40px;
                 font-size: 28px;
                 line-height: 170%;
                 font-weight: 300;
-                text-align: center;
+               
                   color: $color-black;
+                  width: 60%;
+                  margin: 0 auto;
              }
              .ph{
             color: $color-thernary;
@@ -489,22 +575,28 @@ font-size: 18px;
 
       }
       .row-border{
+          
        
       .element{
         background-color: $color-primary;
         border-radius: 15px;
-        // margin-bottom: 20px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        transform: translateY(10px);
+        transition: 0.5s;
 
-       overflow: hidden;
+
+       
         &:hover{
-            // margin-bottom: 0px;
+            transform: translateY(-10px);
+
         }
         .image{
         position: relative;
-            
+            height: 300px;
             img{
             width: 100%;
-            height: 45%;
+            height: 100%;
             }
              .buttons{
                  position: absolute;
@@ -569,7 +661,12 @@ font-size: 18px;
     padding: 50px 40px;
 
     .logoo{
-      
+        @media screen and (max-width:992px){
+            margin: 20px 0;            
+        }
+        @media screen and (max-width:500px){
+            margin: 30px 0;            
+        }
         a{
             img{
                  width: 75px;
@@ -586,6 +683,9 @@ font-size: 16px;
 margin: 0px 0px 16px;
 font-family: "Rajdhani-Light";
 text-transform: uppercase;
+@media screen and (max-width:500px){
+    margin: 70px 0;            
+}
 
 
 
@@ -685,7 +785,7 @@ text-transform: uppercase;
       }  
     }
     .row{
-        .col-lg-6{
+        .col-lg-12{
             .copyright{
                     p{ 
                        font-size: 16px;
@@ -708,3 +808,135 @@ text-transform: uppercase;
         }
     }
 }
+
+@media screen and (max-width:992px){
+    #Not-with_panther .first-row .heading{
+        padding: 8% 6%;
+        margin-left: 4px;
+        margin-bottom: 5%; 
+        font-size: 30px;
+    }
+    #Not-with_panther .first-row .paragraph{
+    padding: 8% 0;
+    font-size: 16px;
+
+    }
+
+    #Not-with_panther .second .left .heading{
+        padding: 15px 5px;
+        font-size: 25px;
+        margin-top: 10px;
+    
+      }
+      #Not-with_panther .second .left .pararaphy {
+        padding: 29px 12px;
+        font-size: 16px;
+        
+      }
+      #Not-with_panther .second{
+        margin-left: 2%;
+        width: 96%;
+      }
+      #change .elements .right-image img{
+        padding: 70px 0px; 
+      }
+      #change .elements .left{
+          padding: 10px 15px;
+      }
+      #global-hiring .headingg{
+        padding: 9% 2%;
+      }
+      #global-hiring .card .head{
+          font-size: 2rem;
+      }
+      
+#global-hiring .card p {
+    font-size: 1.7rem;
+    line-height: 20px;
+}
+#card-section .white-site p{
+    padding-top: 40px;
+    font-size: 24px;
+    line-height: 141%;
+    text-align: center;
+}
+#call-to-action{
+    padding: 75px 65px;
+}
+#card-elements .Demo{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+      
+  }
+  
+  @media screen and (max-width:500px){
+
+    #Not-with_panther .first-row .heading{
+        padding: 8% 4%;
+        margin-left: 4px;
+        margin-bottom: 5%;
+    }
+    .footerr{
+        padding: 0;
+    }
+    .footerr .headerrr h2 {
+        margin: 30px 0;
+    }
+
+    .footerr .ul-list ul li{
+        margin: 0px 0px 10px;
+    }
+    .footerr .col-lg-4 .formm form .name-input input
+    {
+        width: 85%;
+        margin-left: 20px;
+    }
+    .footerr .col-lg-4 .formm form .email input{
+        width: 85%;
+        margin-left: 20px;
+  
+  }
+  .footerr .h2 h2{
+      margin-left: 20px;
+  }
+  .footerr .ph p {
+      margin-left: 20px;
+  }
+  #Remote-teams .text .h{
+    font-size: 27px;
+    margin-top: 26%;
+    padding-left: 20px;
+  }
+
+  #Remote-teams .text .p{
+    margin: 13px 16px;
+    font-size: 15px;
+  }
+  #Remote-teams .button{
+    margin-left: 15px;
+    width: 85%;
+  }
+  #Remote-teams .trustedBy{
+    margin-left: 15px;
+    font-size: 11px;
+  }
+  #Remote-teams .images{
+    margin-left: 15px;
+
+  }
+  #Remote-teams .image {
+      width: 94%;
+  }
+  #Remote-teams .image .image-iconn {
+      top: 32%;
+      left: 35%;
+  }
+  #Not-with_panther {
+    padding: 30px 10px;
+  }
+
+}
+
+

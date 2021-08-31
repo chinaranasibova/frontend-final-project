@@ -6700,6 +6700,7 @@ a {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
   background-color: #0f0d1e;
   display: flex;
   justify-content: space-between;
@@ -6796,6 +6797,11 @@ a {
   #Remote-teams .text .h {
     font-size: 45px;
     margin-top: 30%; }
+    @media screen and (max-width: 500px) {
+      #Remote-teams .text .h {
+        font-size: 30px;
+        margin-top: 30%;
+        padding-left: 10px; } }
   #Remote-teams .text .p {
     color: #adaabf;
     font-size: 18px;
@@ -6805,6 +6811,13 @@ a {
     padding: 12px 20px;
     border: 1px solid #5b35d5;
     border-radius: 5px; }
+    @media screen and (max-width: 992px) {
+      #Remote-teams .button {
+        width: 120px;
+        background-color: #5b35d5;
+        padding: 12px 35px;
+        border: 1px solid #5b35d5;
+        border-radius: 5px; } }
   #Remote-teams .trustedBy {
     font-size: 14px;
     font-style: italic; }
@@ -6815,6 +6828,9 @@ a {
       height: 4rem;
       padding: 0px 0px 0px 8px;
       margin: 0px 24px 0px 0px; }
+      @media screen and (max-width: 992px) {
+        #Remote-teams .images img {
+          height: 3rem; } }
   #Remote-teams .image {
     position: relative;
     margin-top: 10%; }
@@ -6863,6 +6879,8 @@ a {
     #Not-with_panther .second .left .pararaphy {
       padding: 30px 24px;
       font-size: 18px; }
+    #Not-with_panther .second .image img {
+      width: 100%; }
 
 #change {
   padding: 5% 5%;
@@ -6949,23 +6967,31 @@ a {
       font-size: 15px; }
 
 #card-section {
-  background-color: #5b35d5; }
+  background-color: #5b35d5;
+  padding: 0 100px; }
+  @media screen and (max-width: 992px) {
+    #card-section {
+      padding: 0 10px; } }
   #card-section .why-panther h1 {
     font-size: 35px;
     text-align: center;
     margin: 50px 15px;
     padding: 25px 15px; }
-  #card-section .cards {
-    margin: 40px 21%;
-    width: 70%; }
-    #card-section .cards .card-elements p {
+  #card-section .card-elements {
+    padding: 24px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #card-section .card-elements .image img {
+      margin-right: 10px; }
+    #card-section .card-elements .text p {
       color: #fff;
       font-size: 18px;
-      font-weight: 500;
-      display: flex;
-      justify-content: space-around; }
-    #card-section .cards .card-elements span {
+      font-weight: 500; }
+    #card-section .card-elements span {
       font-size: 14px; }
+  #card-section hr {
+    color: #ff9a83; }
   #card-section .white-site {
     background-color: white;
     width: 80%;
@@ -6978,8 +7004,9 @@ a {
       font-size: 28px;
       line-height: 170%;
       font-weight: 300;
-      text-align: center;
-      color: #0f0d1e; }
+      color: #0f0d1e;
+      width: 60%;
+      margin: 0 auto; }
     #card-section .white-site .ph {
       color: #5b35d5;
       margin-right: auto;
@@ -7014,12 +7041,18 @@ a {
   #card-elements .row-border .element {
     background-color: #0f0d1e;
     border-radius: 15px;
-    overflow: hidden; }
+    margin-bottom: 20px;
+    overflow: hidden;
+    transform: translateY(10px);
+    transition: 0.5s; }
+    #card-elements .row-border .element:hover {
+      transform: translateY(-10px); }
     #card-elements .row-border .element .image {
-      position: relative; }
+      position: relative;
+      height: 300px; }
       #card-elements .row-border .element .image img {
         width: 100%;
-        height: 45%; }
+        height: 100%; }
       #card-elements .row-border .element .image .buttons {
         position: absolute;
         top: 80%;
@@ -7059,6 +7092,12 @@ a {
 .footerr {
   background-color: #0f0d1e;
   padding: 50px 40px; }
+  @media screen and (max-width: 992px) {
+    .footerr .logoo {
+      margin: 20px 0; } }
+  @media screen and (max-width: 500px) {
+    .footerr .logoo {
+      margin: 30px 0; } }
   .footerr .logoo a img {
     width: 75px;
     height: 75px; }
@@ -7068,6 +7107,9 @@ a {
     margin: 0px 0px 16px;
     font-family: "Rajdhani-Light";
     text-transform: uppercase; }
+    @media screen and (max-width: 500px) {
+      .footerr .headerrr h2 {
+        margin: 70px 0; } }
   .footerr .ul-list ul {
     font-size: 10px; }
     .footerr .ul-list ul li {
@@ -7122,14 +7164,100 @@ a {
     font-size: 17px;
     color: white;
     border-color: #0f0d1e; }
-  .footerr .row .col-lg-6 .copyright p {
+  .footerr .row .col-lg-12 .copyright p {
     font-size: 16px;
     color: #adaabf; }
-  .footerr .row .col-lg-6 .social-links {
+  .footerr .row .col-lg-12 .social-links {
     margin: 12px 20%; }
-    .footerr .row .col-lg-6 .social-links a img {
+    .footerr .row .col-lg-12 .social-links a img {
       width: 30px;
       height: 30px; }
+
+@media screen and (max-width: 992px) {
+  #Not-with_panther .first-row .heading {
+    padding: 8% 6%;
+    margin-left: 4px;
+    margin-bottom: 5%;
+    font-size: 30px; }
+  #Not-with_panther .first-row .paragraph {
+    padding: 8% 0;
+    font-size: 16px; }
+  #Not-with_panther .second .left .heading {
+    padding: 15px 5px;
+    font-size: 25px;
+    margin-top: 10px; }
+  #Not-with_panther .second .left .pararaphy {
+    padding: 29px 12px;
+    font-size: 16px; }
+  #Not-with_panther .second {
+    margin-left: 2%;
+    width: 96%; }
+  #change .elements .right-image img {
+    padding: 70px 0px; }
+  #change .elements .left {
+    padding: 10px 15px; }
+  #global-hiring .headingg {
+    padding: 9% 2%; }
+  #global-hiring .card .head {
+    font-size: 2rem; }
+  #global-hiring .card p {
+    font-size: 1.7rem;
+    line-height: 20px; }
+  #card-section .white-site p {
+    padding-top: 40px;
+    font-size: 24px;
+    line-height: 141%;
+    text-align: center; }
+  #call-to-action {
+    padding: 75px 65px; }
+  #card-elements .Demo {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; } }
+
+@media screen and (max-width: 500px) {
+  #Not-with_panther .first-row .heading {
+    padding: 8% 4%;
+    margin-left: 4px;
+    margin-bottom: 5%; }
+  .footerr {
+    padding: 0; }
+  .footerr .headerrr h2 {
+    margin: 30px 0; }
+  .footerr .ul-list ul li {
+    margin: 0px 0px 10px; }
+  .footerr .col-lg-4 .formm form .name-input input {
+    width: 85%;
+    margin-left: 20px; }
+  .footerr .col-lg-4 .formm form .email input {
+    width: 85%;
+    margin-left: 20px; }
+  .footerr .h2 h2 {
+    margin-left: 20px; }
+  .footerr .ph p {
+    margin-left: 20px; }
+  #Remote-teams .text .h {
+    font-size: 27px;
+    margin-top: 26%;
+    padding-left: 20px; }
+  #Remote-teams .text .p {
+    margin: 13px 16px;
+    font-size: 15px; }
+  #Remote-teams .button {
+    margin-left: 15px;
+    width: 85%; }
+  #Remote-teams .trustedBy {
+    margin-left: 15px;
+    font-size: 11px; }
+  #Remote-teams .images {
+    margin-left: 15px; }
+  #Remote-teams .image {
+    width: 94%; }
+  #Remote-teams .image .image-iconn {
+    top: 32%;
+    left: 35%; }
+  #Not-with_panther {
+    padding: 30px 10px; } }
 
 #pay-your-global {
   background-color: #0f0d1e;
@@ -7328,7 +7456,8 @@ a {
       font-weight: 500; }
 
 #ourBlog {
-  background-color: #0f0d1e; }
+  background-color: #0f0d1e;
+  margin: 100px 0; }
   #ourBlog .element {
     background-color: #1b1734;
     border-radius: 15px;
@@ -7339,8 +7468,7 @@ a {
     #ourBlog .element .image {
       position: relative; }
       #ourBlog .element .image img {
-        width: max-content;
-        height: max-content; }
+        width: 100%; }
       #ourBlog .element .image .buttons {
         position: absolute;
         top: 80%;
@@ -7457,3 +7585,29 @@ a {
         font-size: 16px;
         color: #5b35d5;
         margin-right: 10px; }
+
+@media screen and (max-width: 992px) {
+  #Not-with_panther .first-row .heading {
+    padding: 8% 6%;
+    margin-left: 4px;
+    margin-bottom: 5%;
+    font-size: 30px; }
+  #Not-with_panther .first-row .paragraph {
+    padding: 8% 0;
+    font-size: 16px; }
+  #Not-with_panther .second .left .heading {
+    padding: 15px 5px;
+    font-size: 25px;
+    margin-top: 10px; }
+  #Not-with_panther .second .left .pararaphy {
+    padding: 29px 12px;
+    font-size: 16px; }
+  #Not-with_panther .second {
+    margin-left: 2%;
+    width: 96%; } }
+
+@media screen and (max-width: 500px) {
+  #Not-with_panther .first-row .heading {
+    padding: 8% 4%;
+    margin-left: 4px;
+    margin-bottom: 5%; } }
