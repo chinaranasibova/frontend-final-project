@@ -51,5 +51,18 @@ $(document).ready(function () {
     $(this).parent().next().slideToggle();
   })
 
+  $('#card-section .card-elements').click(function(){
+    $('#card-section .card-elements').not($(this)).css('opacity',0.6);
+    $(this).css('opacity','1');
+
+
+
+ 
+    
+    
+      
+   
+  })
+
 });
 

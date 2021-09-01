@@ -214,6 +214,7 @@ margin-top: 30%;
         display: flex;
         flex-wrap: wrap;
         img{
+
             
          height: 4rem;
           padding:0px 0px 0px 8px;
@@ -227,6 +228,9 @@ margin-top: 30%;
 .image{
     position: relative;
     margin-top: 10%;
+    img{
+        margin-top: 60px;
+    }
     .image-iconn{
         border-radius: 50%;
         width:70px;
@@ -240,6 +244,7 @@ margin-top: 30%;
             background-color: $color-thernary;
         }
         img{
+            margin-top: 4px;
             width:35px;
             height: 35px;
         }
@@ -477,13 +482,22 @@ margin-top: 30%;
         
 
             .card-elements{
+                opacity: 0.6;
                 padding: 24px 0px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                border-bottom: none;
+                // border-bottom: 1px solid  #ff9a83;
+                margin-bottom: 1px;
+                &.active{
+                    opacity: 1;
+                    
+                    border-bottom: 1px solid  #ff9a83;
+                }
               
                 .image{
-                    // padding: 0 100px;
+                  
 
                     img{
                         margin-right: 10px;
@@ -496,7 +510,7 @@ margin-top: 30%;
                 .text{
                     p{
                         color: #fff;
-                        font-size: 18px;
+                        font-size: 15px;
                         font-weight: 500;
                       
 
@@ -507,10 +521,7 @@ margin-top: 30%;
     
                 }
             }
-           hr{
-               color:#ff9a83;
-           }
-        
+         
 
         .white-site {
           
@@ -935,6 +946,12 @@ text-transform: uppercase;
   }
   #Not-with_panther {
     padding: 30px 10px;
+  }
+  #card-section .card-elements .image img {
+      width: 50px;
+  }
+  #card-section .card-elements .text p{
+      font-size: 9px;
   }
 
 }
