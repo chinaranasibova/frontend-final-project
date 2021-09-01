@@ -7568,7 +7568,19 @@ a {
   #ourBlog .our-blog .button-elements {
     display: inline-grid; }
   #ourBlog .element {
-    margin: 28px 28px; } }
+    margin: 30px 70px;
+    transition: none;
+    transform: none; }
+  #ourBlog .element .writte .h2 {
+    margin-top: 31px;
+    padding: 43px 27px;
+    font-size: 19px;
+    line-height: 33px; }
+  #ourBlog .element .image img {
+    width: 115%;
+    height: 100%; }
+  #ourBlog .element .writte .p3 {
+    font-size: 13px; } }
 
 #country {
   background-color: #0f0d1e;
