@@ -6791,6 +6791,119 @@ a {
     border-radius: 5px;
     font-size: 14px; }
 
+.footerr {
+  background-color: #0f0d1e;
+  padding: 50px 40px; }
+  @media screen and (max-width: 992px) {
+    .footerr .logoo {
+      margin: 20px 0; } }
+  @media screen and (max-width: 500px) {
+    .footerr .logoo {
+      margin: 30px 0; } }
+  .footerr .logoo a img {
+    width: 75px;
+    height: 75px; }
+  .footerr .headerrr h2 {
+    color: #adaabf;
+    font-size: 16px;
+    margin: 0px 0px 16px;
+    font-family: "Rajdhani-Light";
+    text-transform: uppercase; }
+    @media screen and (max-width: 500px) {
+      .footerr .headerrr h2 {
+        margin: 70px 0; } }
+  .footerr .ul-list ul {
+    font-size: 10px; }
+    .footerr .ul-list ul li {
+      margin: 0px 0px 16px; }
+      .footerr .ul-list ul li a {
+        display: inline-block;
+        margin-bottom: 10px;
+        color: #fff;
+        font-size: 16px;
+        line-height: 110%;
+        font-weight: 300;
+        text-decoration: none;
+        object-fit: fill; }
+  .footerr .h2 h2 {
+    color: #adaabf;
+    font-size: 16px;
+    margin: 0px 0px 16px;
+    font-family: "Rajdhani-Light"; }
+  .footerr .ph {
+    max-width: 75%; }
+    .footerr .ph p {
+      font-size: 16px;
+      min-height: auto;
+      min-width: auto;
+      margin-top: 10px;
+      padding-bottom: 20px;
+      color: #adaabf; }
+  .footerr .col-lg-4 .formm form .name-input input {
+    height: 48px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    color: #0f0d1e;
+    font-size: 17px;
+    font-weight: 400;
+    border-color: #0f0d1e;
+    padding: 0 10px;
+    width: 65%; }
+  .footerr .col-lg-4 .formm form .email input {
+    width: 65%;
+    height: 48px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    color: #0f0d1e;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 0 10px;
+    border-color: #0f0d1e; }
+  .footerr .col-lg-4 .formm form .submit-btn input {
+    background-color: #5b35d5;
+    padding: 12px 32px;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+    border-color: #0f0d1e; }
+  .footerr .row .col-lg-12 .copyright p {
+    font-size: 16px;
+    color: #adaabf;
+    text-align: center; }
+  .footerr .row .col-lg-12 .social-links {
+    margin: 12px 47%; }
+    .footerr .row .col-lg-12 .social-links a img {
+      width: 30px;
+      height: 30px; }
+
+@media screen and (max-width: 992px) {
+  .footerr .row .col-lg-12 .social-links {
+    display: flex; }
+  .footerr {
+    padding: 10px 40px; } }
+
+@media screen and (max-width: 500px) {
+  .footerr .col-lg-4 .formm form .submit-btn input {
+    margin-left: 20px; }
+  .footerr {
+    padding: 0; }
+  .footerr .headerrr h2 {
+    margin: 30px 0; }
+  .footerr .ul-list ul li {
+    margin: 0px 0px 10px; }
+  .footerr .col-lg-4 .formm form .name-input input {
+    width: 85%;
+    margin-left: 20px; }
+  .footerr .col-lg-4 .formm form .email input {
+    width: 85%;
+    margin-left: 20px; }
+  .footerr .h2 h2 {
+    margin-left: 20px; }
+  .footerr .ph p {
+    margin-left: 20px; }
+  .footerr .col-lg-4 .formm form .submit-btn input {
+    padding: 12px 167px; } }
+
 #Remote-teams {
   background-color: #0f0d1e;
   background-image: url("../image/bgimagefirst.png"); }
@@ -7096,91 +7209,9 @@ a {
       border-radius: 5px;
       font-size: 14px; }
 
-.footerr {
-  background-color: #0f0d1e;
-  padding: 50px 40px; }
-  @media screen and (max-width: 992px) {
-    .footerr .logoo {
-      margin: 20px 0; } }
-  @media screen and (max-width: 500px) {
-    .footerr .logoo {
-      margin: 30px 0; } }
-  .footerr .logoo a img {
-    width: 75px;
-    height: 75px; }
-  .footerr .headerrr h2 {
-    color: #adaabf;
-    font-size: 16px;
-    margin: 0px 0px 16px;
-    font-family: "Rajdhani-Light";
-    text-transform: uppercase; }
-    @media screen and (max-width: 500px) {
-      .footerr .headerrr h2 {
-        margin: 70px 0; } }
-  .footerr .ul-list ul {
-    font-size: 10px; }
-    .footerr .ul-list ul li {
-      margin: 0px 0px 16px; }
-      .footerr .ul-list ul li a {
-        display: inline-block;
-        margin-bottom: 10px;
-        color: #fff;
-        font-size: 16px;
-        line-height: 110%;
-        font-weight: 300;
-        text-decoration: none;
-        object-fit: fill; }
-  .footerr .h2 h2 {
-    color: #adaabf;
-    font-size: 16px;
-    margin: 0px 0px 16px;
-    font-family: "Rajdhani-Light"; }
-  .footerr .ph {
-    max-width: 75%; }
-    .footerr .ph p {
-      font-size: 16px;
-      min-height: auto;
-      min-width: auto;
-      margin-top: 10px;
-      padding-bottom: 20px;
-      color: #adaabf; }
-  .footerr .col-lg-4 .formm form .name-input input {
-    height: 48px;
-    margin-bottom: 16px;
-    border-radius: 4px;
-    color: #0f0d1e;
-    font-size: 17px;
-    font-weight: 400;
-    border-color: #0f0d1e;
-    padding: 0 10px;
-    width: 65%; }
-  .footerr .col-lg-4 .formm form .email input {
-    width: 65%;
-    height: 48px;
-    margin-bottom: 16px;
-    border-radius: 4px;
-    color: #0f0d1e;
-    font-size: 17px;
-    font-weight: 400;
-    padding: 0 10px;
-    border-color: #0f0d1e; }
-  .footerr .col-lg-4 .formm form .submit-btn input {
-    background-color: #5b35d5;
-    padding: 12px 32px;
-    border-radius: 5px;
-    font-size: 17px;
-    color: white;
-    border-color: #0f0d1e; }
-  .footerr .row .col-lg-12 .copyright p {
-    font-size: 16px;
-    color: #adaabf; }
-  .footerr .row .col-lg-12 .social-links {
-    margin: 12px 20%; }
-    .footerr .row .col-lg-12 .social-links a img {
-      width: 30px;
-      height: 30px; }
-
 @media screen and (max-width: 992px) {
+  .footerr .row .col-lg-12 .social-links {
+    display: flex; }
   #Not-with_panther .first-row .heading {
     padding: 8% 6%;
     margin-left: 4px;
@@ -7498,7 +7529,7 @@ a {
     font-size: 32px;
     font-weight: 600; }
   #text .texts p {
-    color: #adaabf;
+    color: #5b557f;
     font-size: 18px;
     margin-bottom: 48px;
     margin-top: 30px; }
@@ -7510,6 +7541,33 @@ a {
     #text .texts .listt .ul li a {
       color: #5b35d5;
       font-weight: 500; }
+
+@media screen and (max-width: 992px) {
+  #cards-section {
+    padding: 50px; }
+  #cards-section .remote-employe .headd h1 {
+    font-size: 52px; }
+  #text {
+    padding: 70px 45px; }
+  #cards-section .remote-employe .image img {
+    height: 450px; } }
+
+@media screen and (max-width: 500px) {
+  #text .text-image .name-date .name {
+    margin-left: 10px; }
+  #text .text-image .name-date .name {
+    margin-right: 10px; }
+  #cards-section {
+    padding: 0; }
+  #cards-section .remote-employe .headd h1 {
+    font-size: 31px;
+    padding-top: 23px; }
+  #cards-section .remote-employe .image img {
+    height: 300px; } }
+
+@media screen and (max-width: 420px) {
+  .footerr .col-lg-4 .formm form .submit-btn input {
+    padding: 12px 140px; } }
 
 #ourBlog {
   background-color: #0f0d1e;
@@ -7780,23 +7838,3 @@ a {
     margin-bottom: 22px; }
   #Champion-talen {
     padding: 28px; } }
-
-@media screen and (max-width: 992px) {
-  #Not-with_panther .first-row .heading {
-    padding: 8% 6%;
-    margin-left: 4px;
-    margin-bottom: 5%;
-    font-size: 30px; }
-  #Not-with_panther .first-row .paragraph {
-    padding: 8% 0;
-    font-size: 16px; }
-  #Not-with_panther .second .left .heading {
-    padding: 15px 5px;
-    font-size: 25px;
-    margin-top: 10px; }
-  #Not-with_panther .second .left .pararaphy {
-    padding: 29px 12px;
-    font-size: 16px; }
-  #Not-with_panther .second {
-    margin-left: 2%;
-    width: 96%; } }

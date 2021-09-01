@@ -113,7 +113,7 @@ height: 500px;
     font-weight: 600;
     }
     p{
-   color: $color-p;
+   color:#5b557f;
    font-size: 18px;
    margin-bottom: 48px;
    margin-top: 30px
@@ -134,4 +134,46 @@ height: 500px;
         };
     }
 }
+}
+
+
+
+@media screen and (max-width:992px){
+    #cards-section {
+        padding: 50px;
+    }
+    #cards-section .remote-employe .headd h1{
+        font-size: 52px;
+    }
+    #text{
+        padding: 70px 45px;
+    }
+    #cards-section .remote-employe .image img{
+        height: 450px;
+    }
+}
+@media screen and (max-width:500px){
+    #text .text-image .name-date .name{
+        margin-left: 10px;
+    } 
+    #text .text-image .name-date .name{
+        margin-right: 10px;
+    } 
+    #cards-section{
+        padding: 0;
+    }
+    #cards-section .remote-employe .headd h1{
+        font-size: 31px;
+        padding-top: 23px;
+    }
+    #cards-section .remote-employe .image img{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:420px){
+
+    .footerr .col-lg-4 .formm form .submit-btn input{
+        padding: 12px 140px;
+    }
 }

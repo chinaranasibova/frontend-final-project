@@ -10,8 +10,10 @@
 
 @import "helpers/reset_flickity";
 
+
 @import "components/accordion";
 @import "components/button";
+@import "components/header&footerResponsive";
 
 @import "pages/index";
 @import "pages/payroll";
@@ -20,4 +22,4 @@
 @import "pages/country";
 
 
-@import "responsive";
+
