@@ -7457,18 +7457,60 @@ a {
 
 #ourBlog {
   background-color: #0f0d1e;
-  margin: 100px 0; }
+  padding: 100px 0; }
+  #ourBlog .our-blog .hs h5 {
+    font-family: Rajdhani,sans-serif;
+    color: #ff9a83;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-bottom: 45px; }
+  #ourBlog .our-blog .hs h1 {
+    align-self: center;
+    font-family: Inter,sans-serif;
+    color: #fff;
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 45px; }
+  #ourBlog .our-blog .button-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 73%;
+    margin: 0 auto; }
+    #ourBlog .our-blog .button-elements a {
+      background-color: #322b5f;
+      padding: 20px 29px;
+      border: 1px solid #322b5f;
+      border-radius: 5px;
+      font-size: 17px;
+      margin: 6px; }
+      #ourBlog .our-blog .button-elements a:hover {
+        background-color: #23203c; }
+      #ourBlog .our-blog .button-elements a.active {
+        background-color: #0f0d1e;
+        border: 1px solid #5b35d5; }
   #ourBlog .element {
     background-color: #1b1734;
     border-radius: 15px;
-    width: 60%;
+    width: 67%;
+    margin-top: 40px;
+    margin: 20px 111px;
+    transform: translateY(10px);
     overflow: hidden; }
     #ourBlog .element:hover {
-      margin-bottom: 0px; }
+      transform: translateY(-10); }
     #ourBlog .element .image {
-      position: relative; }
+      position: relative;
+      height: 300px; }
       #ourBlog .element .image img {
-        width: 100%; }
+        width: 100%;
+        height: 100%; }
       #ourBlog .element .image .buttons {
         position: absolute;
         top: 80%;
