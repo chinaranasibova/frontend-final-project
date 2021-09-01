@@ -7459,6 +7459,7 @@ a {
   background-color: #0f0d1e;
   padding: 100px 0; }
   #ourBlog .our-blog .hs h5 {
+    margin: 0 auto;
     font-family: Rajdhani,sans-serif;
     color: #ff9a83;
     font-size: 18px;
@@ -7502,9 +7503,10 @@ a {
     margin-top: 40px;
     margin: 20px 111px;
     transform: translateY(10px);
-    overflow: hidden; }
+    overflow: hidden;
+    transition: 1.5s; }
     #ourBlog .element:hover {
-      transform: translateY(-10); }
+      transform: translateY(-10px); }
     #ourBlog .element .image {
       position: relative;
       height: 300px; }
@@ -7538,6 +7540,35 @@ a {
       #ourBlog .element .dates .p-date {
         font-size: 16px;
         margin-top: 15px; }
+  #ourBlog .row h5 {
+    margin-left: 50%;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px; }
+  #ourBlog .row a {
+    background-color: #5b35d5;
+    padding: 12px 32px;
+    border: 1px solid #5b35d5;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 6px;
+    margin-top: 50px; }
+
+@media screen and (max-width: 992px) {
+  #ourBlog .our-blog .hs h5 {
+    font-size: 16px; }
+  #ourBlog .our-blog .hs h1 {
+    font-size: 45px; }
+  #ourBlog .our-blog .button-elements {
+    width: 102%; } }
+
+@media screen and (max-width: 500px) {
+  #ourBlog .our-blog .hs h1 {
+    font-size: 40px; }
+  #ourBlog .our-blog .button-elements {
+    display: inline-grid; }
+  #ourBlog .element {
+    margin: 28px 28px; } }
 
 #country {
   background-color: #0f0d1e;
