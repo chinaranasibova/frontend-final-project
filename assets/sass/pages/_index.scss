@@ -3,7 +3,6 @@
 
 #Remote-teams{
     background-color: $color-primary;
-    background-image:url('../image/bgimagefirst.png');
 
 
     .text{
@@ -63,6 +62,9 @@ margin-top: 30%;
     } 
 }
 .image{
+    background-image:url('../image/bgimagefirst.png');
+
+    
     position: relative;
     margin-top: 10%;
     img{
@@ -485,6 +487,11 @@ margin-top: 30%;
     .footerr .row .col-lg-12 .social-links {
         display: flex;
     }
+     
+    #Remote-teams .text .h {
+        margin-top: 8%;
+    }
+
     #Not-with_panther .first-row .heading{
         padding: 8% 6%;
         margin-left: 4px;
@@ -530,9 +537,10 @@ margin-top: 30%;
     line-height: 20px;
 }
 #card-section .white-site p{
-    padding-top: 40px;
+    padding-top: 10px;
     font-size: 24px;
-    line-height: 141%;
+    width: 87%;
+    
     text-align: center;
 }
 #call-to-action{
@@ -547,11 +555,23 @@ margin-top: 30%;
   }
   
   @media screen and (max-width:500px){
+    #Not-with_panther .first-row .paragraph{
+        padding: 8% 21px;
+    }
+    #Remote-teams .text .h{
+        font-size: 45px;
+        margin-top: 10%;
+        padding-left: 20px; 
+    }
+    // #card-section .card-elements .text p {
+    //     font-size: 11px;
+    // }
+
 
     #Not-with_panther .first-row .heading{
         padding: 8% 4%;
         margin-left: 4px;
-        margin-bottom: 5%;
+        margin-bottom: 0;
     }
     .footerr{
         padding: 0;
@@ -591,7 +611,7 @@ margin-top: 30%;
   }
   #Remote-teams .button{
     margin-left: 15px;
-    width: 85%;
+    width: 34%;
   }
   #Remote-teams .trustedBy{
     margin-left: 15px;
@@ -605,8 +625,8 @@ margin-top: 30%;
       width: 94%;
   }
   #Remote-teams .image .image-iconn {
-      top: 32%;
-      left: 35%;
+      top: 45%;
+      left: 45%;
   }
   #Not-with_panther {
     padding: 30px 10px;
@@ -615,7 +635,7 @@ margin-top: 30%;
       width: 50px;
   }
   #card-section .card-elements .text p{
-      font-size: 9px;
+      font-size: 11px !important;
   }
 
 }
