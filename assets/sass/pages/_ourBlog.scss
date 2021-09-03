@@ -106,22 +106,23 @@
                 font-size: 16px;
                 color: $color-p;
             }
+            .dates{
+                display: flex;
+                 img{
+                 
+                     margin: 10px 30px;
+                     width: 35px;
+                     height: 35px;
+         
+         
+                 }
+                 .p-date{
+                 font-size: 16px;
+                 margin-top: 15px;
+                 }
+             }
         }
-        .dates{
-           display: flex;
-            img{
-            
-                margin: 10px 30px;
-                width: 35px;
-                height: 35px;
-    
-    
-            }
-            .p-date{
-            font-size: 16px;
-            margin-top: 15px;
-            }
-        }
+      
          
       }
       .row{
@@ -158,10 +159,42 @@
     #ourBlog .our-blog .button-elements{
         width: 102%;
     }
+    #ourBlog .element{
+        display: flex;
+        width: 100%;
+        
+    margin: 20px 0px;
+    }
+    #ourBlog .element .image{
+        height: 250px;
+    width: 100%;
+    padding: 15px;
+    }
+    #ourBlog .element .image img{
+        border-radius: 5px;
+    }
+    #ourBlog .element .writte .h2{
+        margin-top: 0px;
+    padding: 30px 35px;
+    font-size: 18px;
+    }
                 
  }
 
  @media screen and (max-width:500px){
+    #ourBlog{
+        padding: 100px 20px;
+    }
+    #ourBlog .row a{
+        padding: 12px 15px;
+    }
+
+    #ourBlog .element{
+display: block;
+margin: 30px 0px;  
+transform: none;
+transition: none;
+    }
     #ourBlog .our-blog .hs h1{
         font-size: 40px;
     } 
@@ -169,11 +202,7 @@
         display:  inline-grid;
     }  
       
-    #ourBlog .element{
-        margin: 30px 70px;
-        transition: none;
-        transform: none;
-    } 
+ 
     #ourBlog .element .writte .h2{
         margin-top: 31px;
         padding: 43px 27px;

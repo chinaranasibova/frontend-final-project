@@ -87,18 +87,39 @@ clickBig.addEventListener('click', function(){
 })
 
 
-  $('#card-section .card-elements').click(function(){
-    $('#card-section .card-elements').not($(this)).css('opacity',0.6);
-    $(this).css('opacity','1');
+  // $('#card-section .card-elements').click(function(){
+  //   $('#card-section .card-elements').not($(this)).css('opacity',0.6);
+  //   $(this).css('opacity','1');
+  // });
 
-
-
- 
-    
-    
-      
-   
-  })
 
 });
+
+const cardElements=document.querySelectorAll("#card-section .card-elements");
+
+function clearOpacity(){
+  cardElements.forEach(elem=>{
+    elem.style.opacity=0.6;
+    elem.style.borderBottom="none";
+  });
+}
+
+
+  cardElements.forEach(elem => {
+      elem.addEventListener('click',function(){
+        clearOpacity();
+        elem.style.opacity = 1;
+        elem.style.borderBottom="1px solid #ff9a83";
+
+      })
+   });
+
+  document.querySelector('.image-iconn').addEventListener('click',function(){
+    document.querySelector('.modal').style.display='block';
+  });
+
+  document.querySelector('.close').addEventListener('click',function(){
+    document.querySelector('.modal').style.display='none';
+    document.querySelector('iframe').setAttribute('src',document.querySelector('iframe').getAttribute('src'));
+  });
 

@@ -6657,29 +6657,27 @@ a {
   .main-center__carousel .flickity-button {
     display: none; } }
 
-.accordion {
-  margin: 30px auto; }
-  .accordion-item {
-    background-color: #fff;
-    color: #111;
-    margin: 1rem 0;
-    border-radius: 2px; }
-    .accordion-item-header {
-      padding: 20px;
-      line-height: 1.25rem;
-      display: flex;
-      align-items: center;
-      position: relative;
-      cursor: pointer; }
-      .accordion-item-header.active > img {
-        transform: rotate(180deg); }
-    .accordion-item-body {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.2s ease-out; }
-      .accordion-item-body-content {
-        padding: 20px;
-        line-height: 1.5rem; }
+.modal {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.82);
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0; }
+  .modal .modal-content {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%; }
+    .modal .modal-content .close {
+      position: absolute;
+      top: -20%;
+      right: -45%;
+      color: white;
+      font-size: 40px;
+      font-weight: bolder; }
 
 .button {
   display: inline-block;
@@ -6999,6 +6997,7 @@ header {
   .footerr .col-lg-4 .formm form .submit-btn input {
     background-color: #5b35d5;
     padding: 12px 32px;
+    width: 40%;
     border-radius: 5px;
     font-size: 17px;
     color: white;
@@ -7039,7 +7038,7 @@ header {
   .footerr .ph p {
     margin-left: 20px; }
   .footerr .col-lg-4 .formm form .submit-btn input {
-    padding: 12px 167px; } }
+    width: 85%; } }
 
 #Remote-teams {
   background-color: #0f0d1e; }
@@ -7187,29 +7186,29 @@ header {
 #global-hiring {
   background-color: #23203c; }
   #global-hiring .headingg {
-    padding: 6% 36%;
+    padding: 6% 29%;
     margin-top: 0;
-    margin-bottom: 24px;
+    text-align: center;
     font-family: Inter,sans-serif;
     color: #fff;
     font-size: 48px;
     line-height: 140%;
     font-weight: 600; }
   #global-hiring .card {
-    padding: 15px 15px; }
+    padding: 36px 56px; }
     #global-hiring .card .head {
-      margin-bottom: 10px;
+      margin-bottom: 5px;
       font-family: Inter,sans-serif;
       color: #fff;
-      font-size: 3rem;
+      font-size: 25px;
       line-height: 150%;
-      font-weight: 500; }
+      font-weight: 400; }
     #global-hiring .card p {
       color: #adaabf;
-      font-size: 2rem;
+      font-size: 18px;
       max-width: 70%;
-      font-weight: 300;
-      line-height: 100%; }
+      font-weight: 200;
+      line-height: 150%; }
   #global-hiring .buttonDemo {
     padding: 50px 10px; }
     #global-hiring .buttonDemo a {
@@ -7295,46 +7294,46 @@ header {
     font-size: 35px;
     text-align: center;
     margin-bottom: 65px; }
-  #card-elements .row-border .element {
+  #card-elements .element {
     background-color: #0f0d1e;
     border-radius: 15px;
     margin-bottom: 20px;
     overflow: hidden;
     transform: translateY(10px);
     transition: 0.5s; }
-    #card-elements .row-border .element:hover {
+    #card-elements .element:hover {
       transform: translateY(-10px); }
-    #card-elements .row-border .element .image {
+    #card-elements .element .image {
       position: relative;
       height: 300px; }
-      #card-elements .row-border .element .image img {
+      #card-elements .element .image img {
         width: 100%;
         height: 100%; }
-      #card-elements .row-border .element .image .buttons {
+      #card-elements .element .image .buttons {
         position: absolute;
         top: 80%;
         left: 7%; }
-        #card-elements .row-border .element .image .buttons a {
+        #card-elements .element .image .buttons a {
           background-color: #5b35d5;
           padding: 12px 20px;
           border: 1px solid #5b35d5;
           border-radius: 5px;
           font-size: 14px; }
-    #card-elements .row-border .element .writte .h2 {
+    #card-elements .element .writte .h2 {
       margin-top: 32px;
       padding: 38px 35px;
       font-size: 20px; }
-    #card-elements .row-border .element .writte .p3 {
+    #card-elements .element .writte .p3 {
       padding: 0px 35px;
       font-size: 16px;
       color: #adaabf; }
-    #card-elements .row-border .element .dates {
+    #card-elements .element .writte .dates {
       display: flex; }
-      #card-elements .row-border .element .dates img {
+      #card-elements .element .writte .dates img {
         margin: 10px 30px;
         width: 35px;
         height: 35px; }
-      #card-elements .row-border .element .dates .p-date {
+      #card-elements .element .writte .dates .p-date {
         font-size: 16px;
         margin-top: 15px; }
   #card-elements .Demo {
@@ -7349,6 +7348,13 @@ header {
 @media screen and (max-width: 992px) {
   .footerr .row .col-lg-12 .social-links {
     display: flex; }
+  #card-elements .element .image {
+    width: 87%;
+    padding: 21px; }
+  #card-elements .element {
+    display: flex; }
+  #card-elements .element .image img {
+    border-radius: 5px; }
   #Remote-teams .text .h {
     margin-top: 8%; }
   #Not-with_panther .first-row .heading {
@@ -7375,11 +7381,13 @@ header {
     padding: 10px 15px; }
   #global-hiring .headingg {
     padding: 9% 2%; }
-  #global-hiring .card .head {
-    font-size: 2rem; }
   #global-hiring .card p {
-    font-size: 1.7rem;
-    line-height: 20px; }
+    padding: 15px 0px;
+    max-width: 71%; }
+  #change .elements .right-image img {
+    width: 90%; }
+  #global-hiring .card {
+    padding: 30px 0px; }
   #card-section .white-site p {
     padding-top: 10px;
     font-size: 24px;
@@ -7395,6 +7403,16 @@ header {
 @media screen and (max-width: 500px) {
   #Not-with_panther .first-row .paragraph {
     padding: 8% 21px; }
+  #card-elements .element .image {
+    width: 100%;
+    padding: 30px; }
+  #card-elements .element .image .buttons {
+    top: 78%;
+    left: 10%; }
+  #global-hiring .card {
+    padding: 30px 18px; }
+  #card-elements .element {
+    display: block; }
   #Remote-teams .text .h {
     font-size: 45px;
     margin-top: 10%;
@@ -7558,17 +7576,17 @@ header {
       text-decoration: none; }
 
 @media screen and (max-width: 992px) {
-  #pay-your-global .h1-payroll h1 {
-    text-align: center; }
+  #pay-your-global .h1-payroll {
+    margin-top: 2%; }
   #pay-your-global .buttonnn {
-    margin-top: 9%;
-    margin-left: 40%; }
+    margin-top: 7%; }
   #pay-your-global .imagee img {
     width: 85%;
     margin-left: 27px; }
   #cards .card-elements {
-    width: 96%;
-    padding: 34px 44px; }
+    width: 100%;
+    padding: 34px 44px;
+    margin: 30px 0; }
   #cards .card-elements .icon {
     margin-bottom: 23px; }
   #cards .card-elements .writing h3 {
@@ -7595,7 +7613,10 @@ header {
   #pay-your-global .h1-payroll h1 {
     font-size: 31px; }
   #pay-your-global .buttonnn {
-    margin-left: 26%; } }
+    margin-left: 26%; }
+  #cards .card-elements {
+    margin: 30px auto;
+    width: 84%; } }
 
 #cards-section {
   background-color: #ebeaf5;
@@ -7790,13 +7811,13 @@ header {
       padding: 0px 35px;
       font-size: 16px;
       color: #adaabf; }
-    #ourBlog .element .dates {
+    #ourBlog .element .writte .dates {
       display: flex; }
-      #ourBlog .element .dates img {
+      #ourBlog .element .writte .dates img {
         margin: 10px 30px;
         width: 35px;
         height: 35px; }
-      #ourBlog .element .dates .p-date {
+      #ourBlog .element .writte .dates .p-date {
         font-size: 16px;
         margin-top: 15px; }
   #ourBlog .row h5 {
@@ -7819,17 +7840,36 @@ header {
   #ourBlog .our-blog .hs h1 {
     font-size: 45px; }
   #ourBlog .our-blog .button-elements {
-    width: 102%; } }
+    width: 102%; }
+  #ourBlog .element {
+    display: flex;
+    width: 100%;
+    margin: 20px 0px; }
+  #ourBlog .element .image {
+    height: 250px;
+    width: 100%;
+    padding: 15px; }
+  #ourBlog .element .image img {
+    border-radius: 5px; }
+  #ourBlog .element .writte .h2 {
+    margin-top: 0px;
+    padding: 30px 35px;
+    font-size: 18px; } }
 
 @media screen and (max-width: 500px) {
+  #ourBlog {
+    padding: 100px 20px; }
+  #ourBlog .row a {
+    padding: 12px 15px; }
+  #ourBlog .element {
+    display: block;
+    margin: 30px 0px;
+    transform: none;
+    transition: none; }
   #ourBlog .our-blog .hs h1 {
     font-size: 40px; }
   #ourBlog .our-blog .button-elements {
     display: inline-grid; }
-  #ourBlog .element {
-    margin: 30px 70px;
-    transition: none;
-    transform: none; }
   #ourBlog .element .writte .h2 {
     margin-top: 31px;
     padding: 43px 27px;
@@ -7958,7 +7998,7 @@ header {
     padding: 20px 12px; }
   #countrys-name .ul-list ul li {
     font-size: 15px;
-    padding: 0px 6px; }
+    padding: 0px; }
   #Champion-talent {
     padding: 60px; }
   #videoSection .video-text {

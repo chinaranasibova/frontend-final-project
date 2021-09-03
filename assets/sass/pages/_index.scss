@@ -233,9 +233,9 @@ margin-top: 30%;
 
         
    
-   padding: 6% 36%;
+   padding: 6% 29%;
     margin-top: 0;
-    margin-bottom: 24px;
+    text-align: center;
     font-family: Inter,sans-serif;
     color: #fff;
     font-size: 48px;
@@ -245,22 +245,22 @@ margin-top: 30%;
 
         }
         .card{
-            padding: 15px 15px;
+            padding: 36px 56px;
             .head{
-                margin-bottom: 10px;             
+                margin-bottom: 5px;             
                 font-family: Inter,sans-serif;
                 color: #fff;
-                font-size: 3rem;
+                font-size: 25px;
                 line-height: 150%;
-                font-weight: 500;
+                font-weight: 400;
                 
             }
             p{
                  color: #adaabf;
-                 font-size: 2rem;
+                 font-size:18px ;
                 max-width: 70%;
-                 font-weight: 300;
-                 line-height: 100%;
+                 font-weight: 200;
+                 line-height: 150%;
             }
 
         }
@@ -400,7 +400,7 @@ margin-top: 30%;
         margin-bottom: 65px;
 
       }
-      .row-border{
+      
           
        
       .element{
@@ -450,25 +450,26 @@ margin-top: 30%;
                 font-size: 16px;
                 color: $color-p;
             }
+            .dates{
+                display: flex;
+                 img{
+                 
+                     margin: 10px 30px;
+                     width: 35px;
+                     height: 35px;
+     
+     
+                 }
+                 .p-date{
+                 font-size: 16px;
+                 margin-top: 15px;
+                 }
+             }
         }
-        .dates{
-           display: flex;
-            img{
-            
-                margin: 10px 30px;
-                width: 35px;
-                height: 35px;
-
-
-            }
-            .p-date{
-            font-size: 16px;
-            margin-top: 15px;
-            }
-        }
+      
          
       }
-      }
+      
 
       .Demo{ 
           margin-top: 50px;
@@ -486,6 +487,16 @@ margin-top: 30%;
 @media screen and (max-width:992px){
     .footerr .row .col-lg-12 .social-links {
         display: flex;
+    }
+    #card-elements .element .image{
+    width: 87%;
+    padding: 21px;
+    }
+    #card-elements .element{
+        display: flex;
+    }
+    #card-elements .element .image img{
+        border-radius: 5px;
     }
      
     #Remote-teams .text .h {
@@ -528,13 +539,20 @@ margin-top: 30%;
       #global-hiring .headingg{
         padding: 9% 2%;
       }
-      #global-hiring .card .head{
-          font-size: 2rem;
+      #global-hiring .card p{
+        padding: 15px 0px;
+        max-width: 71%;
       }
-      
-#global-hiring .card p {
-    font-size: 1.7rem;
-    line-height: 20px;
+      #change .elements .right-image img{
+          width: 90%;
+      }
+
+
+
+
+
+#global-hiring .card {
+    padding: 30px 0px;
 }
 #card-section .white-site p{
     padding-top: 10px;
@@ -558,15 +576,28 @@ margin-top: 30%;
     #Not-with_panther .first-row .paragraph{
         padding: 8% 21px;
     }
+    #card-elements .element .image{
+        width: 100%;
+        padding: 30px;
+    }
+    #card-elements .element .image .buttons{
+        top: 78%;
+        left: 10%;
+    }
+
+    #global-hiring .card{
+        padding: 30px 18px;
+    }
+
+    #card-elements .element{
+        display: block;
+    }
     #Remote-teams .text .h{
         font-size: 45px;
         margin-top: 10%;
         padding-left: 20px; 
     }
-    // #card-section .card-elements .text p {
-    //     font-size: 11px;
-    // }
-
+   
 
     #Not-with_panther .first-row .heading{
         padding: 8% 4%;

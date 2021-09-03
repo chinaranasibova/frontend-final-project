@@ -411,6 +411,7 @@ text-transform: uppercase;
               input{
                 background-color: $color-thernary;
                 padding: 12px 32px;
+                width: 40%;
                 
                 border-radius: 5px;
                 font-size: 17px;
@@ -497,6 +498,7 @@ text-transform: uppercase;
 
 
   .footerr .col-lg-4 .formm form .submit-btn input{
-    padding: 12px 167px;
+  
+    width: 85%;
   }
 }
