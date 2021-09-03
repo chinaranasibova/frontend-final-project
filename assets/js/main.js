@@ -40,8 +40,6 @@ $(document).ready(function () {
 
   })
 
-
-
   $('.image-icon').click(function (e) {
     
     if ($(this).parent().next(".accordion-contentt").css('display') == 'none') {
@@ -87,11 +85,7 @@ clickBig.addEventListener('click', function(){
 })
 
 
-  // $('#card-section .card-elements').click(function(){
-  //   $('#card-section .card-elements').not($(this)).css('opacity',0.6);
-  //   $(this).css('opacity','1');
-  // });
-
+ 
 
 });
 

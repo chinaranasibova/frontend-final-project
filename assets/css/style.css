@@ -6679,6 +6679,14 @@ a {
       font-size: 40px;
       font-weight: bolder; }
 
+@media screen and (max-width: 991px) {
+  .modal .modal-content {
+    top: 19%;
+    left: 9%; }
+  .modal .modal-content .close {
+    top: -9%;
+    right: -69%; } }
+
 .button {
   display: inline-block;
   color: #ffffff;
@@ -7559,7 +7567,8 @@ header {
   #common-questions .Common-questions-right .accordion-contentt {
     display: none; }
     #common-questions .Common-questions-right .accordion-contentt .pp {
-      width: 65%; }
+      width: 65%;
+      margin-left: 10px; }
       #common-questions .Common-questions-right .accordion-contentt .pp p {
         font-size: 15px;
         color: #adaabf; }
@@ -7616,7 +7625,7 @@ header {
     margin-left: 26%; }
   #cards .card-elements {
     margin: 30px auto;
-    width: 84%; } }
+    width: 84; } }
 
 #cards-section {
   background-color: #ebeaf5;

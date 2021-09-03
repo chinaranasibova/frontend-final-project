@@ -137,6 +137,7 @@ font-size: 35px;
             display: none;
             .pp{
                 width: 65%;
+                margin-left: 10px;
                
                 p{
 font-size:15px;
@@ -228,7 +229,7 @@ color: $color-p;
     }
     #cards .card-elements{
         margin: 30px auto;
-        width: 84%;
+        width: 84;
     }
   
 }

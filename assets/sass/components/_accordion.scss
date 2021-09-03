@@ -22,3 +22,19 @@
         }
     }
 }
+
+@media screen and (max-width: 991px){
+
+    .modal .modal-content{
+        top: 19%;
+        left: 9%;
+    }
+    .modal .modal-content .close{
+        top: -9%;
+        right: -69%;
+    }
+}
+
+@media screen and (max-width: 991px){
+
+}
