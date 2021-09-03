@@ -6782,7 +6782,7 @@ header {
           header .header .nav-list li .dropdown-big .big-box.active {
             display: block; }
       header .header .nav-list li .nav-item {
-        padding: 22px;
+        padding: 15px;
         cursor: pointer;
         margin-left: 8px;
         font-size: 16px;
@@ -7360,7 +7360,9 @@ header {
     width: 87%;
     padding: 21px; }
   #card-elements .element {
-    display: flex; }
+    display: flex;
+    transform: none;
+    transition: none; }
   #card-elements .element .image img {
     border-radius: 5px; }
   #Remote-teams .text .h {
@@ -7408,6 +7410,16 @@ header {
     display: flex;
     justify-content: center; } }
 
+@media screen and (max-width: 768px) {
+  #card-elements .element .image {
+    width: 100%;
+    padding: 13px;
+    margin-top: 20px;
+    height: 250px; }
+  #card-elements .element .writte .h2 {
+    margin-top: 20px;
+    padding: 28px 33px; } }
+
 @media screen and (max-width: 500px) {
   #Not-with_panther .first-row .paragraph {
     padding: 8% 21px; }
@@ -7415,7 +7427,7 @@ header {
     width: 100%;
     padding: 30px; }
   #card-elements .element .image .buttons {
-    top: 78%;
+    top: 75%;
     left: 10%; }
   #global-hiring .card {
     padding: 30px 18px; }

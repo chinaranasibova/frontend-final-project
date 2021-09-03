@@ -108,12 +108,27 @@ function clearOpacity(){
       })
    });
 
-  document.querySelector('.image-iconn').addEventListener('click',function(){
-    document.querySelector('.modal').style.display='block';
+
+  const imageIcon=document.querySelector('.image-iconn');
+  const closeBtn=document.querySelector('.close');
+  const modal=document.querySelector('.modal');
+  const iframe=document.querySelector('iframe');
+
+
+
+  imageIcon.addEventListener('click',function(){
+    modal.style.display='block';
   });
 
-  document.querySelector('.close').addEventListener('click',function(){
-    document.querySelector('.modal').style.display='none';
-    document.querySelector('iframe').setAttribute('src',document.querySelector('iframe').getAttribute('src'));
+  closeBtn.addEventListener('click',function(){
+    modal.style.display='none';
+    iframe.setAttribute('src',document.querySelector('iframe').getAttribute('src'));
   });
+
+
+
+
+ 
+  
+
 

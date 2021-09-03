@@ -96,7 +96,7 @@ header{
                 }
                
                 .nav-item{
-                    padding: 22px;
+                    padding: 15px;
                     cursor: pointer;
                     margin-left: 8px;
                     font-size: 16px;
@@ -339,14 +339,13 @@ text-transform: uppercase;
                 a{
                     // font-size: 16px;
                     display: inline-block;
-    margin-bottom: 10px;
-    color: #fff;
-    font-size: 16px;
-    line-height: 110%;
-    font-weight: 300;
-    text-decoration: none;
-   
-    object-fit: fill;
+                    margin-bottom: 10px;
+                    color: #fff;
+                    font-size: 16px;
+                    line-height: 110%;
+                    font-weight: 300;
+                    text-decoration: none;
+                     object-fit: fill;
                 }
             }
         }
@@ -363,7 +362,6 @@ text-transform: uppercase;
     }
     .ph{
    max-width: 75%;
-
         p{
    font-size: 16px;
    min-height: auto;
@@ -387,14 +385,12 @@ text-transform: uppercase;
                 border-color: $color-primary;
                 padding: 0 10px;
                 width: 65%;
-
-
               }
           }
          
           .email{
               input{
-                  width: 65%;
+                width: 65%;
                 height: 48px;
                 margin-bottom: 16px;
                 border-radius: 4px;
@@ -462,6 +458,8 @@ text-transform: uppercase;
     }
     
 }
+
+
 
 
 

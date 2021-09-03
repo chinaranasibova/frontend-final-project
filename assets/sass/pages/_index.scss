@@ -494,6 +494,8 @@ margin-top: 30%;
     }
     #card-elements .element{
         display: flex;
+        transform: none;
+        transition: none;
     }
     #card-elements .element .image img{
         border-radius: 5px;
@@ -571,6 +573,21 @@ margin-top: 30%;
 }
       
   }
+
+  @media screen and (max-width:768px){
+    #card-elements .element .image{
+        width: 100%;
+        padding: 13px;
+        margin-top: 20px;
+        height: 250px;
+    }
+    #card-elements .element .writte .h2{
+        margin-top: 20px;
+        padding: 28px 33px;
+    }
+    
+
+}
   
   @media screen and (max-width:500px){
     #Not-with_panther .first-row .paragraph{
@@ -581,7 +598,7 @@ margin-top: 30%;
         padding: 30px;
     }
     #card-elements .element .image .buttons{
-        top: 78%;
+        top: 75%;
         left: 10%;
     }
 
